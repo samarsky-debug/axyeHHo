@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rhude World championship jacket</title>
+  <link rel="stylesheet" href="two.css">
+</head>
+<body>
+  <header>
+    <h1>FASHION FUTURE</h1>
+    <button id="open-cart" aria-controls="cart-drawer" aria-expanded="false" class="cart-toggle">
+      Корзина (<span id="cart-count">0</span>)
+    </button>
+  </header>
+
+  <nav>
+    <a href="index.html">Main</a>
+    <a href="manfashion.html">Catalog</a>
+    <a href="#">Jackets</a>
+    <a href="#">Аccessories</a>
+    <a href="#">Sale</a>
+  </nav>
+
+  <main>
+<div class="product-card-container">
+    <div class="images-section">
+      <div class="main-img-wrapper">
+        <img src="img/RWCjacket.jpg" alt="Puffer Jacket" id="main-img" />
+      </div>
+      <div class="thumbnails">
+        <img src="img/RWCjacket.jpg" alt="вид 1" />
+        <img src="img/RWCjacket2.jpg" alt="вид 2" />
+        <img src="img/RWCjacket3.jpg" alt="вид 3" />
+
+      </div>
+    </div>
+
+    <div class="description-section" data-id="rhude-world-championship-jacket">
+      <span class="category">Autumn Collection 2026</span>
+      <h2 class="product-title">Rhude World championship jacket</h2>
+      <p class="description-text">
+              Эта куртка Number Nine выполнена из легкого, водоотталкивающего материала серого цвета. Она имеет свободный крой с эластичными манжетами и нижней кромкой, что обеспечивает комфорт и хорошую посадку. На спине размещен крупный дизайн: в центре изображена гитара-капля, окруженная кругом из текста «Number Nine», выполненного в белом цвете, и внутри — рукописное слово «Number».
+      </p>
+
+      <span class="section-label">Выберите размер</span>
+      <div class="size-picker">
+        <div class="size-badge">S</div>
+        <div class="size-badge active">M</div>
+        <div class="size-badge">L</div>
+        <div class="size-badge">XL</div>
+      </div>
+
+      <div class="specs">
+        <div class="spec-item">
+          <span>Материал</span>
+          <strong>Мембрана</strong>
+        </div>
+        <div class="spec-item">
+          <span>Артикул</span>
+          <strong>FF-0910</strong>
+        </div>
+      </div>
+
+      <div class="price">5 000 ₽</div>
+      <a href="#" class="add-to-cart-btn">Добавить в корзину</a>
+      <div class="delivery-info">
+        <div class="info-item">📦 Бесплатная доставка от 5 000 ₽</div>
+        <div class="info-item">🔄 Возврат в течение 14 дней</div>
+        <div class="info-item">🛡️ Гарантия качества 1 год</div>
+      </div>
+    </div>
+  </div>
+  </main>
+
+  <footer class="main-footer">
+    <div class="footer-container">
+      <div class="footer-col">
+        <h3>Полезное</h3>
+        <ul>
+          <li>Доставка и оплата</li>
+          <li>Политика конфиденциальности</li>
+          <li>Таблица размеров</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Контакты</h3>
+        <ul>
+          <li>г. Кемерово, ул. Ленина, 73</li>
+          <li>8 (800) 555-35-35</li>
+          <li>support@fashionfuture.ru</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Мы в сети</h3>
+        <div class="social-icons" style="font-size: 12px; opacity: 0.6;">
+          Instagram / Telegram / VK
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div id="overlay" class="overlay" tabindex="-1" hidden></div>
+
+  <aside id="cart-drawer" class="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="cart-title" aria-hidden="true" hidden>
+    <div class="cart-header">
+      <h2 id="cart-title">Корзина</h2>
+      <button id="close-cart" aria-label="Закрыть корзину">×</button>
+    </div>
+    <div class="cart-body" id="cart-items">
+    </div>
+    <div class="cart-footer">
+      <div class="cart-total">Итого: <span id="cart-total">0 ₽</span></div>
+      <button id="checkout" class="btn-primary">Оформить заказ</button>
+    </div>
+  </aside>
+
+  <!-- Скрипты: если в оригинале есть скрипты, они будут добавлены ниже -->
+
+
+  <script src="korzina.js"></script>
+</body>
+</html>

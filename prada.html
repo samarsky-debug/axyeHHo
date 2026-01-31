@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Prada Fashion Future</title>
+  <link rel="stylesheet" href="two.css">
+</head>
+<body>
+  <header>
+    <h1>FASHION FUTURE</h1>
+    <button id="open-cart" aria-controls="cart-drawer" aria-expanded="false" class="cart-toggle">
+      Корзина (<span id="cart-count">0</span>)
+    </button>
+  </header>
+
+  <nav>
+    <a href="index.html">Main</a>
+    <a href="manfashion.html">Catalog</a>
+    <a href="#">Jackets</a>
+    <a href="#">Аccessories</a>
+    <a href="#">Sale</a>
+  </nav>
+
+  <main>
+<div class="product-card-container">
+    <div class="images-section">
+       <div class="main-img-wrapper">
+          <img src="accessories/prada.jpg" alt="Prada" id="main-img" />
+</div>
+<div class="thumbnails">
+  <img src="accessories/prada.jpg" alt="вид 1" />
+  <img src="accessories/prada2.jpg" alt="вид 2" />
+  <img src="accessories/prada3.jpg" alt="вид 3" />
+</div>
+</div>
+
+<div class="description-section" data-id="очки-prada">
+  <span class="category">Summer Collection 2026</span>
+    <h2 class="product-title">Очки Prada</h2>
+      <p class="description-text">
+Prada — это сочетание современного стиля и высокой моды. Они выполнены в классическом черном цвете с крупной прямоугольной оправой, которая придает образу выразительность и элегантность. Тонкие стекла с защитой от солнца дополнены функцией polarized, обеспечивая четкое и комфортное зрение в яркую погоду. На дужках аккуратно нанесен логотип Prada, что подчеркивает брендовый статус и качество изделия.<div class="specs">
+  <div class="spec-item">
+    <span>Оправа</span>
+      <strong>Пластик</strong>
+</div>
+
+<div class="spec-item">
+  <span>Артикул</span>
+    <strong>FF-0954</strong>
+  </div>
+</div>
+            
+<div class="price">9 000 ₽</div>
+  <a href="#" class="add-to-cart-btn">Добавить в корзину</a>
+    <div class="delivery-info">
+      <div class="info-item">📦 Бесплатная доставка от 15 000 ₽</div>
+        <div class="info-item">🔄 Возврат в течение 14 дней</div>
+          <div class="info-item">🛡️ Гарантия качества 1 год</div>
+        </div>
+      </div>
+   </div>
+  </main>
+
+  <footer class="main-footer">
+    <div class="footer-container">
+      <div class="footer-col">
+        <h3>Полезное</h3>
+        <ul>
+          <li>Доставка и оплата</li>
+          <li>Политика конфиденциальности</li>
+          <li>Таблица размеров</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Контакты</h3>
+        <ul>
+          <li>г. Кемерово, ул. Ленина, 73</li>
+          <li>8 (800) 555-35-35</li>
+          <li>support@fashionfuture.ru</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Мы в сети</h3>
+        <div class="social-icons" style="font-size: 12px; opacity: 0.6;">
+          Instagram / Telegram / VK
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div id="overlay" class="overlay" tabindex="-1" hidden></div>
+
+  <aside id="cart-drawer" class="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="cart-title" aria-hidden="true" hidden>
+    <div class="cart-header">
+      <h2 id="cart-title">Корзина</h2>
+      <button id="close-cart" aria-label="Закрыть корзину">×</button>
+    </div>
+    <div class="cart-body" id="cart-items">
+    </div>
+    <div class="cart-footer">
+      <div class="cart-total">Итого: <span id="cart-total">0 ₽</span></div>
+      <button id="checkout" class="btn-primary">Оформить заказ</button>
+    </div>
+  </aside>
+
+  <!-- Скрипты: если в оригинале есть скрипты, они будут добавлены ниже -->
+
+
+  <script src="korzina.js"></script>
+</body>
+</html>
